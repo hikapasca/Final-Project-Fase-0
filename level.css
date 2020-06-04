@@ -1,0 +1,62 @@
+*{
+    background-color: #27ccc6;
+    text-align: center;
+}
+.difficulty{
+    text-align: center;
+    font-size: 130px;
+    margin-top: 600px;
+    margin-bottom: 600px;
+}
+
+.level{
+    
+}
+.easy{
+    margin-right: 400px;
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;  
+    font-weight: 800; 
+    font-size: 50px;
+    padding: 30px 150px;
+}
+.medium{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;  
+    font-weight: 800; 
+    font-size: 50px;
+    padding: 30px 150px;
+}
+.hard{
+    margin-left: 400px;
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;  
+    font-weight: 800; 
+    font-size: 50px;
+    padding: 30px 150px;
+}
+
+.easy:hover{
+    color: black;
+    background-color: #27ccc6;
+    border: 1px solid white;
+}
+.medium:hover{
+    color: black;
+    background-color: #27ccc6;
+    border: 1px solid white;
+}
+.hard:hover{
+    color: black;
+    background-color: #27ccc6;
+    border: 1px solid white;
+}

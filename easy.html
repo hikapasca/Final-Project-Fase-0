@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="easy.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <img id="GambarMobil" src="Logo Depan.png">
+        <p id="Pertanyaan">Mobil apakah diatas?</p>
+    </div>
+    <div id="timer">
+        <div id="counter">6</div>
+        <div id="FullQuestion"></div>
+        <div id="counterQuestion"></div>
+    </div>
+    <div id ="multipleChoice">
+        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+    </div>
+    <div id="progress">
+        <div class="prog"></div>
+    </div>
+
+    <div id="scoreDiv">
+        <p id="totalScore">50%</p>
+    </div>
+    <script src="quizEasy.js"></script>
+</body>
+</html>
