@@ -1,0 +1,25 @@
+*{
+    background-color: #27ccc6;
+    text-align: center;
+}
+#gambarMobil{
+    margin-top: 200px;
+    display: inline-block;
+    width: 1500px;
+    height: 1000px;
+}
+#pertanyaan{
+    font-size: 100px;
+    margin-top: 10px;
+}
+#A{
+    font-size: 100px;
+    margin-top: 10px;
+    background-color:rgb(255, 255, 255, .3);
+    border-left: 40px;
+}
+#B{
+    font-size: 100px;
+    margin-top: 10px;
+    background-color:rgb(255, 255, 255, .3);
+}
