@@ -4,58 +4,25 @@
 }
 .difficulty{
     text-align: center;
-    font-size: 130px;
-    margin-top: 600px;
-    margin-bottom: 600px;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 250px;
 }
 
-.level{
-    
-}
 .easy{
-    margin-right: 400px;
+    margin-left:100px;
     color:black;
     background-color:white;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 15px;  
     font-weight: 800; 
-    font-size: 50px;
-    padding: 30px 150px;
-}
-.medium{
-    color:black;
-    background-color:white;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 15px;  
-    font-weight: 800; 
-    font-size: 50px;
-    padding: 30px 150px;
-}
-.hard{
-    margin-left: 400px;
-    color:black;
-    background-color:white;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 15px;  
-    font-weight: 800; 
-    font-size: 50px;
-    padding: 30px 150px;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-right:100px;
 }
 
 .easy:hover{
-    color: black;
-    background-color: #27ccc6;
-    border: 1px solid white;
-}
-.medium:hover{
-    color: black;
-    background-color: #27ccc6;
-    border: 1px solid white;
-}
-.hard:hover{
     color: black;
     background-color: #27ccc6;
     border: 1px solid white;
