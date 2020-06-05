@@ -91,6 +91,7 @@ function checkAnswer(answer){
         score++
         hitung++
     }else{
+        hitung++
     }
     count = 0
     if(tampung.length < lastQuestion){
