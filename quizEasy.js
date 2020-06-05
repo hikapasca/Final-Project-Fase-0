@@ -51,17 +51,17 @@ let questions = [{
 }]
 
 const lastQuestion = questions.length
-let runningQuestion = Math.floor(Math.random()*3)
+let runningQuestion = Math.floor(Math.random()*questions.length)
 let count = 8
 const questionTime = 0
 let TIMER
 let score = 0
 let tampung = []
+let hitung = 0
 
 function renderQuestion(){
     let q = questions[runningQuestion]
     tampung.push(q)
-    console.log(tampung)
     question.innerHTML = "<p>"+ q.question +"</p>"
     qImg.innerHTML = "<img src="+ q.imgSrc +">"
     A.innerHTML = q.A
@@ -77,11 +77,11 @@ function renderCounter(){
     }else{
         count = 8
         if(tampung.length < lastQuestion){
-            runningQuestion = Math.floor(Math.random()*3)
+            runningQuestion = Math.floor(Math.random()*questions.length)
             renderQuestion()
         }else{
             clearInterval(TIMER)
-            window.location.href = `/result.html?score=${score}`;
+            window.location.href = `/result.html?score=${score}&hitung=${hitung}`
         }
     }
 }
@@ -89,6 +89,7 @@ function renderCounter(){
 function checkAnswer(answer){
     if( answer == questions[runningQuestion].correct){
         score++
+        hitung++
     }else{
     }
     count = 0
@@ -96,8 +97,7 @@ function checkAnswer(answer){
         runningQuestion = Math.floor(Math.random()*3)
     }else{
         clearInterval(TIMER)
-        // scoreRender();
-        window.location.href = `/result.html?score=${score}`
+        window.location.href = `/result.html?score=${score}&hitung=${hitung}`
     }
 }
 
